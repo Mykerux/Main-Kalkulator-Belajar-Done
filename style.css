@@ -1,59 +1,59 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+body { 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   font-family: sans-serif;
+   background-color: #555;
 }
 
-body {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: antiquewhite;
+.textarea { 
+   border: none;
+   border-radius: 7px;
+   margin-bottom: 15px;
+   background-color: #ffffff;
+   padding: 10px 10px 15px 10px;
+   font-weight: bold;
+   font-size: 25px;
+   box-sizing: border-box;
+   text-align: right;
+   color: #252525;
+   width: 100%;
 }
 
 .container {
-    position: relative;
-    max-width: 300px;
-    width: 100%;
-    border-radius: 12px;
-    padding: 10px 20px 20px;
-    background-color: #fff;
-    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.5);
-}
-
-.textarea {
-    height: 80px;
-    width: 100%;
-    outline: none;
-    margin-bottom: 10px;
-    font-size: 25px;
-    color: #000e;
-    border: none;
-    text-align: right;
+   position: relative;
+   background-color: #252525;
+   padding: 15px;
+   border-radius: 15px;
+   box-shadow: 0 5px 20px #000000;
+   max-width: 300px;
 }
 
 .tombol {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(4, 1fr);
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 10px;
 }
 
+
 .tombol input {
-    padding: 15px 10px;
-    border: 12px;
-    cursor: pointer;
-    font-size: 20px;
-    background-color: #eee;
-    border-radius: 50%;
+   border: none;
+   border-radius: 50%;
+   height: 65px;
+   font-size: 20px;
+   background-color: #5555;
 }
 
 .tombol input:active {
-    transform: scale(0.9);
+   transform: scale(0.9);
 }
 
 .operator {
-    color: rgb(61, 181, 181);
-    font-weight: bold;
+   color: #ffc800;
+   font-weight: bold;
+}
+
+.buttons {
+   color: rgb(61, 181, 181);
 }

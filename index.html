@@ -3,7 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Bismillah</title>
+   <title>Aplikasi Beljar Kalkulator</title>
    <link rel="stylesheet" href="style.css">
 
    <script src="main.js"></script>
@@ -11,33 +11,33 @@
 <body>
    <div class="container">
       <form action="" name="forms">
-         <input type="textarea" class="textarea" name="textarea" value="0">
+         <input type="textarea" name="textarea" class="textarea" value="0" readonly>
       </form>
       <div class="tombol">
-         <input type="button" class="operator" value="C" onclick="hapusAll()">
-         <input type="button" class="operator" value="Del" onclick="hapus()">
-         <input type="button" class="operator" value="x" onclick="tampil('*')">
-         <input type="button" class="operator" value=":" onclick="tampil('/')">
+         <input type="button" value="C" class="operator" onclick="hapusAll()">
+         <input type="button" value="Del" class="operator" onclick="hapus()">
+         <input type="button" value="X" class="operator" onclick="tampil('*')">
+         <input type="button" value=":" class="operator" onclick="tampil('/')">
 
-         <input type="button" class="button" value="7" onclick="tampil('7')">
-         <input type="button" class="button" value="8" onclick="tampil('8')">
-         <input type="button" class="button" value="9" onclick="tampil('9')">
-         <input type="button" class="operator" value="+" onclick="tampil('+')">
+         <input type="button" value="7" class="buttons" onclick="tampil('7')">
+         <input type="button" value="8" class="buttons" onclick="tampil('8')">
+         <input type="button" value="9" class="buttons" onclick="tampil('9')">
+         <input type="button" value="+" class="operator" onclick="tampil('+')">
 
-         <input type="button" class="button" value="4" onclick="tampil('4')">
-         <input type="button" class="button" value="5" onclick="tampil('5')">
-         <input type="button" class="button" value="6" onclick="tampil('6')">
-         <input type="button" class="operator" value="-" onclick="tampil('-')">
+         <input type="button" value="4" class="buttons" onclick="tampil('4')">
+         <input type="button" value="5" class="buttons" onclick="tampil('5')">
+         <input type="button" value="6" class="buttons" onclick="tampil('6')">
+         <input type="button" value="-" class="operator" onclick="tampil('-')">
 
-         <input type="button" class="button" value="1" onclick="tampil('1')">
-         <input type="button" class="button" value="2" onclick="tampil('2')">
-         <input type="button" class="button" value="3" onclick="tampil('3')">
-         <input type="button" class="operator" value="." onclick="tampil('.')">
+         <input type="button" value="1" class="buttons" onclick="tampil('1')">
+         <input type="button" value="2" class="buttons" onclick="tampil('2')">
+         <input type="button" value="3" class="buttons" onclick="tampil('3')">
+         <input type="button" value="." class="operator" onclick="tampil('.')">
 
-         <input type="button" class="button" value="0" onclick="tampil('0')">
-         <input type="button" class="button" value="00" onclick="tampil('00')">
-         <input type="button" class="button" value="=" onclick="hasil('=')">
-         <input type="button" class="operator" value="%" onclick="tampil('%')">
+         <input type="button" value="0" class="buttons" onclick="tampil('0')">
+         <input type="button" value="00" class="buttons" onclick="tampil('00')">
+         <input type="button" value="=" class="buttons" onclick="hasil('=')">
+         <input type="button" value="%" class="operator" onclick="tampil('%')">
       </div>
    </div>
 </body>
